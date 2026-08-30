@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    int b;
+
+    scanf("%d", &a);
+    scanf("%d", &b);
+
+    if(a > b)
+        printf("the value of %d is greater than the value of %d", a, b);
+    else
+        printf("the value of %d is greater than the value of %d", b, a);
+}
