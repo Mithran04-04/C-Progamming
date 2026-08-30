@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    
+    
+    printf("The value of a is:",a);
+    scanf("%d",&a);
+    
+    
+    if( a > 0 )
+    {
+        printf("the given value is positive");
+    }
+    else if(a == 0 )
+    {
+        printf("the given value is zero");
+    }
+    else 
+    {
+        printf("the given value is negative");
+    }
+    
+}
