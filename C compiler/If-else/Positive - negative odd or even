@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main()
+{
+int a;
+scanf("%d",&a);
+if(a%2 == 0 && a > 0)
+printf("The given value of a: %d is positive even",a);
+else if(a%2 !=0 && a > 0)
+printf("The given value of a: %d is positive odd",a);
+else if(a%2 == 0 && a < 0)
+printf("The given value of a: %d is negative even",a);
+else if(a%2 != 0 && a < 0)
+printf("The given value of a: %d is negative odd",a);
+else
+printf("The given value of a: %d is Zero",a);
+}
