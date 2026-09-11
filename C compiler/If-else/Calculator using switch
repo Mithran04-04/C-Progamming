@@ -1,0 +1,27 @@
+#include <stdio.h>
+int main()
+{
+int Number1;
+scanf("%d",&Number1);
+int Number2;
+scanf("%d",&Number2);
+char operation;
+scanf(" %c ", &operation);
+switch(operation)
+{
+case '+':
+printf("The sum:%d", Number1 + Number2);
+break;
+case '-':
+printf("The diff:%d", Number1 - Number2);
+break;
+case '*':
+printf("The Multiplication:%d", Number1 * Number2);
+break;
+case '%':
+printf("The Remainder:%d", Number1 % Number2);
+break;
+default :
+printf("Operation Unavailable");
+break;
+}
