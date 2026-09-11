@@ -1,0 +1,24 @@
+#include <stdio.h>
+int main()
+{
+int a,b,c;
+printf("Side of A:",a);
+scanf("%d",&a);
+printf("Side of B:",b);
+scanf("%d",&b);
+printf("Side of C:",c);
+scanf("%d",&c);
+
+if( a == b && b == c && c == a )
+{
+printf("the given Traingle is Equilateral");
+}
+else if( a == b || a == c || && b == c )
+{
+printf("the given Traingle is Isosceles");
+}
+else
+{
+printf("the given Traingle is Scalene");
+}
+}
