@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main()
+{
+int a,b,c;
+printf("Enter The Three Sides:",a,b,c);
+scanf("%d %d %d",&a,&b,&c);
+
+if( a + b > c && a + c > b && b + c > a)
+{
+printf("The Given Traingle is Valid");
+}
+else
+{
+printf("The Given Traingle is InValid");
+}
+}
