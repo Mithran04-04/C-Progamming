@@ -1,0 +1,36 @@
+#include <stdio.h>
+int main()
+{
+int amt, Discount, finalamount;
+printf("Enter your shopping Amount:",amt);
+scanf("%d",&amt);
+
+if(amt <= 999)
+{
+Discount = amt*10/100;
+finalamount = amt - Discount;
+printf("Discount for you:%d", Discount);
+printf("Your Final Amount:%d",finalamount);
+}
+else if(amt >= 999 && amt <= 4999)
+{
+Discount = amt*20/100;
+finalamount = amt - Discount;
+printf("Discount for you:%d", Discount);
+printf("Your Final Amount:%d",finalamount);
+}
+else if(amt >= 4999 && amt <= 9999)
+{
+Discount = amt*40/100;
+finalamount = amt - Discount;
+printf("Discount for you:%d", Discount);
+printf("Your Final Amount:%d",finalamount);
+}
+else
+{
+Discount = amt*75/100;
+finalamount = amt - Discount;
+printf("Discount for you:%d", Discount);
+printf("Your Final Amount:%d",finalamount);
+}
+}
