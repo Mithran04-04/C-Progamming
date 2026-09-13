@@ -1,0 +1,20 @@
+#include <stdio.h>
+int main()
+{
+int mark1,mark2,mark3;
+printf("Enter The Physics Mark:",mark1);
+scanf("%d",&mark1);
+printf("Enter The Maths Mark:",mark2);
+scanf("%d",&mark2);
+printf("Enter The Chemistry Mark:",mark3);
+scanf("%d",&mark3);
+
+if(mark1 + mark2 + mark3 >= 150)
+{
+printf("Yes You are eligible for admission");
+}
+else
+{
+printf("Yes You are not eligible for admission");
+}
+}
