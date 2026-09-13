@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main()
+{
+int balance, withdrawalamount,Balance;
+printf("Available Balance:", balance);
+scanf("%d",&balance);
+printf("Enter the Withdrawal Amount:", withdrawalamount);
+scanf("%d",&withdrawalamount);
+
+if(withdrawalamount % 100 == 0)
+{
+if(withdrawalamount >= 1)
+{
+if(withdrawalamount <= balance)
+{
+Balance = balance - withdrawalamount;
+printf("Remaining Balance:%d",Balance);
+}
+}
+}
+}
