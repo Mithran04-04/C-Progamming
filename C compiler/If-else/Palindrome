@@ -1,0 +1,26 @@
+#include <stdio.h>
+int main()
+{
+int n, R, Remainder;
+
+printf("Enter the Number: ");
+scanf("%d", &n);
+
+Remainder = 0;
+R = n;
+
+while (R != 0)
+{
+Remainder = Remainder * 10 + R % 10;
+R = R / 10;
+}
+
+if (n == Remainder)
+{
+printf("It is a palindrome");
+}
+else
+{
+printf("It is not a palindrome");
+}
+}
